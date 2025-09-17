@@ -10,7 +10,7 @@ export default function StudentInfo() {
       <p>
         <strong>Github Link:</strong>{" "}
         <a href={student.gitlink} target="_blank" rel="noopener noreferrer">
-          {student.gitlink}
+        <u>Shijiyo/cprg306-assignments</u>
         </a>
       </p>
     </div>
