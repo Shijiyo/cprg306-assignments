@@ -1,17 +1,18 @@
-// student-info.js
-import React from "react";
-
-const StudentInfo = () => {
+export default function StudentInfo() {
   const student = {
     name: "Charles Joshua L. Tungol",
-    gitlink: "https://github.com/Shijiyo/cprg306-assignments"};
+    gitlink: "https://github.com/Shijiyo/cprg306-assignments",
+  };
 
   return (
     <div>
       <p><strong>Name:</strong> {student.name}</p>
-      <p><strong>Github Link:</strong> {student.gitlink}</p>
+      <p>
+        <strong>Github Link:</strong>{" "}
+        <a href={student.gitlink} target="_blank" rel="noopener noreferrer">
+          {student.gitlink}
+        </a>
+      </p>
     </div>
   );
-};
-
-export default StudentInfo;
+}
