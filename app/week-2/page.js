@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main className="min-h-screen bg-emerald-200 flex flex-col items-center py-10">
-      <h1 className="text-3xl font-bold text-emerald-700 mb-6">
+      <h1 className="text-3xl font-bold text-black mb-6">
         Shopping List
       </h1>
       <StudentInfo />
