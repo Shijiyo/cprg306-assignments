@@ -11,6 +11,7 @@ export default function Page() {
     { name: "Week 7", href: "/week-7" },
     { name: "Week 8", href: "/week-8" },
     { name: "Week 9", href: "/week-9" },
+    { name: "Week 10", href: "/week-10" },
   ];
 
   return (
